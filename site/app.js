@@ -316,8 +316,8 @@
       "<section class=\"home-body\"><h2 class=\"home-section-title\">All domains</h2>" +
       "<div class=\"home-grid\">" + groups + "</div>" +
       "<hr class=\"home-divider\">" +
-      "<div class=\"home-about\">Alternative perspectives for exploring ideas, traditions and systems. " +
-      "The World Unfolder does not prescribe a single path through any domain.</div></section>";
+      "<div class=\"home-about\">Integrated inquiries into what things are, what constitutes them, " +
+      "and how their parts relate to form a whole.</div></section>";
   }
 
   function renderToc() {
