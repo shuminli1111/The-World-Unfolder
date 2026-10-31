@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "sourceOfTruth": "Markdown is authoritative. Domain hubs live at domains/<slug>.md; completed concept articles live at domains/<slug>/<concept>.md, with three major sections: 01 · The Essence, 02 · The Elements, 03 · The Whole.",
+  "homepage": {
+    "label": "The World Unfolder",
+    "path": "README.md",
+    "route": "/home",
+    "description": "GitHub Docs All docs-style groups: On Unfolding Itself and eight subject domains.",
+    "introduction": {
+      "label": "On Unfolding Itself",
+      "path": "methodology/on-unfolding-the-world.md",
+      "route": "/on-unfolding-the-world",
+      "position": "peer-of-domains",
+      "status": "draft",
+      "items": [
+        {
+          "label": "Why We Unfold",
+          "path": "methodology/on-unfolding-the-world.md",
+          "route": "/on-unfolding-the-world",
+          "anchor": "why-we-unfold"
+        },
+        {
+          "label": "The Methodology of Unfolding",
+          "path": "methodology/on-unfolding-the-world.md",
+          "route": "/on-unfolding-the-world",
+          "anchor": "the-methodology-of-unfolding"
+        },
+        {
+          "label": "The Elegance of Understanding",
+          "path": "methodology/on-unfolding-the-world.md",
+          "route": "/on-unfolding-the-world",
+          "anchor": "the-elegance-of-understanding"
+        },
+        {
+          "label": "The Ethics of Understanding",
+          "path": "methodology/on-unfolding-the-world.md",
+          "route": "/on-unfolding-the-world",
+          "anchor": "the-ethics-of-understanding"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Nature & Life",
+        "path": "domains/nature-and-life.md",
+        "route": "/nature-and-life",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Forest",
+            "status": "planned"
+          },
+          {
+            "label": "Ocean",
+            "status": "planned"
+          },
+          {
+            "label": "Ecosystem",
+            "status": "planned"
+          },
+          {
+            "label": "Evolution",
+            "status": "planned"
+          },
+          {
+            "label": "Human Body",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "Mind & Human Experience",
+        "path": "domains/mind-and-experience.md",
+        "route": "/mind-and-experience",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Consciousness",
+            "status": "planned"
+          },
+          {
+            "label": "Memory",
+            "status": "planned"
+          },
+          {
+            "label": "Emotions",
+            "status": "planned"
+          },
+          {
+            "label": "Perception",
+            "status": "planned"
+          },
+          {
+            "label": "Learning",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "Arts & Culture",
+        "path": "domains/arts-and-culture.md",
+        "route": "/arts-and-culture",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Literature",
+            "status": "planned"
+          },
+          {
+            "label": "Music",
+            "status": "planned"
+          },
+          {
+            "label": "Painting",
+            "status": "planned"
+          },
+          {
+            "label": "Architecture",
+            "status": "planned"
+          },
+          {
+            "label": "Cinema",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "Ideas & Beliefs",
+        "path": "domains/ideas-and-beliefs.md",
+        "route": "/ideas-and-beliefs",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Religion",
+            "status": "planned"
+          },
+          {
+            "label": "Spirituality",
+            "status": "planned"
+          },
+          {
+            "label": "Philosophy",
+            "status": "planned"
+          },
+          {
+            "label": "Knowledge",
+            "status": "planned"
+          },
+          {
+            "label": "Beauty",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "Society & Institutions",
+        "path": "domains/society-and-institutions.md",
+        "route": "/society-and-institutions",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Company",
+            "status": "planned"
+          },
+          {
+            "label": "University",
+            "status": "planned"
+          },
+          {
+            "label": "City",
+            "status": "planned"
+          },
+          {
+            "label": "Family",
+            "status": "planned"
+          },
+          {
+            "label": "Government",
+            "status": "planned"
+          },
+          {
+            "label": "Law",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "Economy & Finance",
+        "path": "domains/economy-and-finance.md",
+        "route": "/economy-and-finance",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Money",
+            "status": "planned"
+          },
+          {
+            "label": "Markets",
+            "status": "planned"
+          },
+          {
+            "label": "Banking",
+            "status": "planned"
+          },
+          {
+            "label": "Financial System",
+            "status": "planned"
+          },
+          {
+            "label": "Index & ETF",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "Technology & Infrastructure",
+        "path": "domains/technology-and-infrastructure.md",
+        "route": "/technology-and-infrastructure",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Internet",
+            "status": "planned"
+          },
+          {
+            "label": "Artificial Intelligence",
+            "status": "planned"
+          },
+          {
+            "label": "Blockchain",
+            "status": "planned"
+          },
+          {
+            "label": "Energy Grid",
+            "status": "planned"
+          },
+          {
+            "label": "Market Infrastructure",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "label": "History & Civilisations",
+        "path": "domains/history-and-civilisations.md",
+        "route": "/history-and-civilisations",
+        "status": "exploratory",
+        "items": [
+          {
+            "label": "Chinese History",
+            "status": "planned"
+          },
+          {
+            "label": "Roman Empire",
+            "status": "planned"
+          },
+          {
+            "label": "Industrial Revolution",
+            "status": "planned"
+          },
+          {
+            "label": "Renaissance",
+            "status": "planned"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "label": "Nature & Life",
+      "path": "domains/nature-and-life.md",
+      "route": "/nature-and-life",
+      "children": []
+    },
+    {
+      "label": "Mind & Human Experience",
+      "path": "domains/mind-and-experience.md",
+      "route": "/mind-and-experience",
+      "children": []
+    },
+    {
+      "label": "Arts & Culture",
+      "path": "domains/arts-and-culture.md",
+      "route": "/arts-and-culture",
+      "children": []
+    },
+    {
+      "label": "Ideas & Beliefs",
+      "path": "domains/ideas-and-beliefs.md",
+      "route": "/ideas-and-beliefs",
+      "children": []
+    },
+    {
+      "label": "Society & Institutions",
+      "path": "domains/society-and-institutions.md",
+      "route": "/society-and-institutions",
+      "children": []
+    },
+    {
+      "label": "Economy & Finance",
+      "path": "domains/economy-and-finance.md",
+      "route": "/economy-and-finance",
+      "children": []
+    },
+    {
+      "label": "Technology & Infrastructure",
+      "path": "domains/technology-and-infrastructure.md",
+      "route": "/technology-and-infrastructure",
+      "children": []
+    },
+    {
+      "label": "History & Civilisations",
+      "path": "domains/history-and-civilisations.md",
+      "route": "/history-and-civilisations",
+      "children": []
+    }
+  ],
+  "plannedDomains": [],
+  "displayRules": {
+    "leftSidebar": "List domain hubs and published concepts; do not display planned concepts as broken links. Article headings belong exclusively in the right-hand On this page panel.",
+    "noNumbering": true,
+    "styleReference": "https://docs.github.com/en",
+    "style": "GitHub Docs-inspired three-column reading layout, clean white canvas, sans-serif typography, compact links, subtle dividers, no decorative cards or italics.",
+    "responsive": "Accessible mobile navigation drawer.",
+    "rightTOC": "Show actual H2 headings for each essay, domain hub or completed concept."
+  },
+  "editorialStructure": {
+    "conceptArticleSections": [
+      "01 · The Essence",
+      "02 · The Elements",
+      "03 · The Whole"
+    ],
+    "conceptualFlow": [
+      "What is it, fundamentally? Which research methods suit its kind?",
+      "What elements constitute or meaningfully shape it?",
+      "How do they relate and form an integrated whole?"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="The World Unfolder — An exploration of what things are, what constitutes them, and how they form a whole.">
+  <title>The World Unfolder</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <button class="menu-button icon-button" id="menuButton" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="brand" href="#/home" aria-label="The World Unfolder home"><span class="brand-mark" aria-hidden="true">✳</span><span>The World Unfolder</span></a>
+      <button id="searchButton" class="search-button" aria-label="Search the World Unfolder"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 5 5"/></svg><span>Search the World Unfolder</span><kbd>⌘ K</kbd></button>
+      <a class="github-link" href="https://github.com/shuminli1111/the-The-World-Unfolder" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <div class="layout">
+    <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+    <aside class="sidebar" id="sidebar" aria-label="World Unfolder navigation">
+      <div class="sidebar-inner" id="sidebarContent"></div>
+    </aside>
+    <main id="main-content" tabindex="-1">
+      <div class="content-shell" id="content" aria-live="polite"><p class="loading">Opening the World Unfolder…</p></div>
+      <footer class="page-footer">The World Unfolder <span aria-hidden="true">·</span> An exploration of what things are, what constitutes them, and how they form a whole.</footer>
+    </main>
+    <aside class="toc" id="toc" aria-label="On this page"><div class="toc-inner" id="tocContent"></div></aside>
+  </div>
+  <div class="search-overlay" id="searchOverlay" hidden>
+    <div class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+      <h2 id="searchTitle" class="sr-only">Search the World Unfolder</h2>
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 5 5"/></svg>
+        <input type="search" id="searchInput" autocomplete="off" spellcheck="false" placeholder="Search concepts, domains and inquiries…" aria-label="Search content">
+        <button id="searchClose" class="escape-button" aria-label="Close search">Esc</button>
+      </div>
+      <div id="searchResults" class="search-results" role="listbox" aria-label="Search results"></div>
+      <div class="search-hint">Searches the available articles. Planned concepts have no pages yet.</div>
+    </div>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

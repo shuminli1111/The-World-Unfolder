@@ -1,44 +1,98 @@
 # The World Unfolder
 
-*Unfold the essence. Discover the elements. Understand the whole.*
+An exploration of what things are, what constitutes them, and how they form a whole.
 
-**The World Unfolder** is an evolving atlas of integrated inquiries into the nature and inner workings of things.
+## All Domains
 
-Each inquiry begins with a **concept** (an object, phenomenon, practice, process or idea) and explores:
-1. **The Essence** — What is it, fundamentally?
-2. **The Elements** — What constitutes it?
-3. **The Whole** — How do its elements relate and form an integrated whole?
+Each domain is a space for integrated inquiries into individual concepts. Browse by curiosity, not by a prescribed reading order. Proposed concepts remain unlinked until an inquiry is actually written.
 
-## Explore the domains
+### [On Unfolding Itself](methodology/on-unfolding-the-world.md)
 
-Domains are broad **navigation spaces**, not rigid or mutually exclusive classifications. A concept's *primary nature* remains a question for the inquiry, not an assumption determined by its folder.
+- [Why We Unfold](methodology/on-unfolding-the-world.md#why-we-unfold)
+- [The Methodology of Unfolding](methodology/on-unfolding-the-world.md#the-methodology-of-unfolding)
+- [The Elegance of Understanding](methodology/on-unfolding-the-world.md#the-elegance-of-understanding)
+- [The Ethics of Understanding](methodology/on-unfolding-the-world.md#the-ethics-of-understanding)
 
-| Domain | Focus |
-| --- | --- |
-| [Nature & Life](domains/nature-and-life/) | Living systems, physical environments and natural processes |
-| [Mind & Human Experience](domains/mind-and-experience/) | Consciousness, perception, memory, emotion and learning |
-| [Arts & Culture](domains/arts-and-culture/) | Artistic forms, cultural works and creative practices |
-| [Ideas & Beliefs](domains/ideas-and-beliefs/) | Philosophy, religion, knowledge, spirituality and values |
-| [Society & Institutions](domains/society-and-institutions/) | Social organisation, institutions and collective life |
-| [Economy & Finance](domains/economy-and-finance/) | Money, markets, financial systems and economic activity |
-| [Technology & Infrastructure](domains/technology-and-infrastructure/) | Technologies, networks and enabling systems |
-| [History & Civilisations](domains/history-and-civilisations/) | Historical periods, transformations and civilisations |
+### [Nature & Life](domains/nature-and-life.md)
 
-## How the atlas is organised
+- Forest
+- Ocean
+- Ecosystem
+- Evolution
+- Human Body
 
-```text
-domains/
-  <domain>/
-    README.md       # Domain navigation
-    <concept>.md    # One integrated inquiry per concept (when developed)
-```
+### [Mind & Human Experience](domains/mind-and-experience.md)
 
-Every concept page will be a complete inquiry, rather than three files split by Essence, Elements and Whole. We add concept pages as research is completed; example topics are not placeholders for finished inquiries.
+- Consciousness
+- Memory
+- Emotions
+- Perception
+- Learning
 
-## A sister project
+### [Arts & Culture](domains/arts-and-culture.md)
 
-[The World Slicer](https://github.com/shuminli1111/the-world-slicer) explores *different ways of seeing* a subject. **The World Unfolder** develops *an integrated understanding* of the subject. The two approaches complement one another without duplicating content.
+- Literature
+- Music
+- Painting
+- Architecture
+- Cinema
 
-## Guiding principle
+### [Ideas & Beliefs](domains/ideas-and-beliefs.md)
 
-**Let the structure emerge from the subject.** Prefer clear explanation and testable understanding over generic checklists or an appearance of completeness.
+- Religion
+- Spirituality
+- Philosophy
+- Knowledge
+- Beauty
+
+### [Society & Institutions](domains/society-and-institutions.md)
+
+- Company
+- University
+- City
+- Family
+- Government
+- Law
+
+### [Economy & Finance](domains/economy-and-finance.md)
+
+- Money
+- Markets
+- Banking
+- Financial System
+- Index & ETF
+
+### [Technology & Infrastructure](domains/technology-and-infrastructure.md)
+
+- Internet
+- Artificial Intelligence
+- Blockchain
+- Energy Grid
+- Market Infrastructure
+
+### [History & Civilisations](domains/history-and-civilisations.md)
+
+- Chinese History
+- Roman Empire
+- Industrial Revolution
+- Renaissance
+
+---
+
+## Research workflow
+
+The World Unfolder studies **what an individual thing is, what makes it up, and how those elements form an integrated whole**. Its [Essence-Led Inquiry skill](.agents/skills/essence-led-inquiry/SKILL.md) explores and refines four internal decisions, presenting three reader-facing sections:
+
+1. **The Essence** — Primary Nature, Higher-Level Category, Defining Essence, and research methods appropriate to that kind of subject.
+2. **The Elements** — subject-specific constituents, participants, conditions, or forces, discovered using a justified approach.
+3. **The Whole** — relationships and natural architecture, integrated and tested against examples and exceptions.
+
+Each completed concept is **one Markdown file** inside its domain folder, using the [concept template](templates/concept.md). Domain hubs are stored at `domains/<domain>.md` and inquiries at `domains/<domain>/<concept>.md`. The eight domain folders have been prepared, but candidate concept pages will only be published when researched.
+
+## About The World Unfolder
+
+**On Unfolding Itself** reflects on the practice and limits of essence-led understanding. **Domains** provide navigation, not fixed ontological categories. A concept's primary nature must be investigated, not deduced from the domain it is filed under.
+
+Sister project: [The World Slicer](https://github.com/shuminli1111/the-world-slicer), a map of alternative perspectives. The World Unfolder aims for an integrated inquiry rather than duplicating those perspectives.
+
+[Research workflow](.agents/skills/essence-led-inquiry/SKILL.md) · [Exploration notes](design/EXPLORATION-NOTES.md) · [Design principles](design/WORLD-UNFOLDER-SPEC.md) · [Website preview](site/README.md)
